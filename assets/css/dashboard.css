@@ -1,0 +1,22 @@
+.fa-question{
+    height: 100px;
+    width: 100px;
+}
+.size{
+    height: 200px;
+
+}
+.contact{
+    width: 50px;
+    height: 50px;
+}
+#profile{
+    width: 300px;
+    height: 300px;
+}
+#edit{
+    width: 30px;
+    height: 30px;
+    /* transform: translateY(90px); */
+    /* transform: translate(20px 90px); */
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/dash.css">
+    <title>DigiClean Smart Laundry Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            
+            <div class="topicons">
+                <div class="logo">
+                    <h1><span><a href="./dashboard.html">DigiClean</a></span> Smart Laundry</h1>
+                </div>
+                <div class="icons">
+                    <a href="./orders.html">
+                    <img src="./images/icons/border-all.svg" alt="" class="icon"> <span>My orders</span></a>
+                </div>
+                <div class="icons">
+                    <a href="./orders.html">
+                    <img src="./images/icons/calendar-check.svg" alt="" class="icon"> <span>Delivery Tracker</span></a>
+                </div>
+                <div class="icons">
+                    <a href="./providers.html">
+                    <img src="./images/icons/users.svg" alt="" class="icon"> <span>Service provider</span></a>
+                </div>
+                <div class="icons">
+                    <a href="./orders.html">
+                    <img src="./images/icons/calendar-day.svg" alt="" class="icon"> <span>Pickup Schedule</span></a>
+                </div>
+                <div class="icons">
+                    <a href="./price.html">
+                    <img src="./images/icons/dumbbell.svg" alt="" class="icon"> <span>Pricing</span></a>
+                </div>
+                </div>
+                <!-- <div class="spacer"></div> -->
+                <div class="bottomicons">
+                <div class="icons">
+                    <a href="./settings.html">
+                    <img src="./images/icons/sliders.svg" alt="" class="icon"> <span>Settings</span></a>
+                </div>
+                </div>
+        </div>
+        <div class="main">
+            <div class="top">
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search">
+                </div>
+                <div class="profiles">
+                    <!-- <img src="./assets/images/icons/bell.svg" alt=""> -->
+                    <!-- <img src="./assets/images/icons/comment-dots.svg" alt=""> -->
+                    <span id="username">Username</span>
+                    <!-- <img src="./assets/images/icons/angle-down.svg" alt=""> -->
+                </div>
+            </div>
+            <div class="content">
+                <div class="intro">
+                    <h1>Good <span class="time">Morning</span>, <span id="username1">User</span></h1>
+                    <h4>Manage your laundry and track their progress</h4>
+                    <a href="./settings.html"><button type="button" class="account">Account</button></a>
+                </div>
+                <div class="orders">
+                    <div class="left">
+                        <div class="holder">
+                            <h2 class="title">Next Pickup</h2>
+                            <h4 class="time1">2 days</h4>
+                        </div>
+                        <div class="holder">
+                            <h2 class="title">Next Delivery</h2>
+                            <h4 class="time2">2days</h4>
+                        </div>
+                    </div>
+                    <div class="faq">
+                        <div class="img-holder">
+                            <img src="./images/icons/question.svg" alt="">
+                            <a href="./faq.html">
+                            <h2>Laundry FAQ's</h2></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tracking">
+                    <div class="left pending shadow">
+                        <h1>Pending Orders</h1>
+                        <div class="internal">
+                            <ul class="orderlist">
+                                <li class="item">arriving in <span class="time">2</span> hrs</li>
+                            </ul>
+                        </div>
+                        <<a href="./orders.html"><button class="link">See All</button></a>
+                    </div>
+                    <div class="right providers shadow">
+                        <h1>Service providers</h1>
+                        <div class="internal">
+                            <div class="service">
+                                <h3 id="bsName">Galaxy Cleaners</h3>
+                                <h4 id="location">Nyeri</h4>
+                                <a href="tel:+"><button class="contact">Contact us</button></a>
+                            </div>
+                        </div>
+                        <a href="./providers.html"><button class="link">See All</button></a><
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

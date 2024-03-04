@@ -1,0 +1,75 @@
+form{
+    width: inherit;
+    background-color: white;
+    overflow: hidden;
+    display: grid;
+    justify-content: center;
+    /* height: 400px; */
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    /* border: 4px solid blue; */
+    
+}
+.content{
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+    padding-top: 40px;
+
+}
+.formtop{
+    background-color: #F40076;
+    height: 40px;
+    width: 100%;
+}
+.bottomdiv{
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+fieldset{
+    border: none;
+    display: block;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+label, input, select{
+    width: 99%;
+    height: 40px;
+}
+input, select{
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(243, 233, 233);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+.topdiv{
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+label{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.buttons{
+    text-align: center;
+}
+.buttons button{
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    background-color: aqua;
+}
+button:hover, button:focus{
+    background-color: #44E5E7;
+}
